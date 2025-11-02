@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<!-- 🕊️ Informações básicas da página -->
+<title>Palavras de Deus | Inspiração, Fé e Mensagens Bíblicas Diárias</title>
+<meta name="description" content="Encontre palavras de Deus que fortalecem sua fé. Mensagens bíblicas diárias, reflexões cristãs e versículos inspiradores para o seu dia a dia.">
+<meta name="keywords" content="palavras de Deus, fé, Bíblia, versículos, mensagens cristãs, reflexão diária, evangelho, Jesus, oração, espiritualidade">
+<meta name="author" content="VictorXX">
+
+<!-- 🙌 Open Graph (Facebook, WhatsApp, LinkedIn, etc.) -->
+<meta property="og:title" content="Palavras de Deus | Fé e Inspiração Diária">
+<meta property="og:description" content="Receba diariamente mensagens e versículos da Palavra de Deus para fortalecer sua fé e renovar seu espírito.">
+<meta property="og:image" content="https://raw.githubusercontent.com/victorxx/imagem/refs/heads/main/DEUS1.jpg">
+<meta property="og:type" content="website">
+
+<!-- 🕊️ Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Palavras de Deus | Fé e Esperança Todos os Dias">
+<meta name="twitter:description" content="Versículos e mensagens que tocam o coração. A Palavra de Deus em cada novo dia.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/victorxx/imagem/refs/heads/main/DEUS1.jpg">
+
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #canva {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        #img img {
+            width: 100%;
+            max-width: 550px;
+            height: auto;
+            border-radius: 12px;
+            border: 4px solid orange;
+            transition: 0.5s;
+        }
+
+        #seta {
+            position: absolute;
+            right: 10%;
+            top: 40%;
+            width: 100px;
+            height:90px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        #seta:hover {
+            transform: scale(3.0);
+        }
+
+        #botao {
+            width: 300px;
+            height: 90px;
+            cursor: pointer;
+            border: 4px solid orange;
+            border-radius: 12px;
+            font-size: 25px;
+            padding: 20px;
+            line-height: 50px;
+            color: white;
+            background-color: orange;
+            text-align: center;
+            margin-top: 40px;
+            transition: 0.3s;
+        }
+
+        #botao:hover {
+            background-color: #ffb347;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 600px) {
+            #botao {
+                width: 80%;
+                font-size: 20px;
+            }
+
+            #seta {
+                right: 5%;
+                top: 35%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="canva">
+        <div id="img"></div>
+
+        <div id="seta" onclick="mudar()">
+            <img src="https://raw.githubusercontent.com/victorxx/imagem/refs/heads/main/setavermelha.png" width="60" alt="Próxima imagem">
+        </div>
+    </div>
+
+    <div id="botao"><a href="https://go.hotmart.com/Y102734006N">50 Passos com Deus</a></div>
+
+    <script>
+        const imagens = [
+            'https://raw.githubusercontent.com/victorxx/imagem/refs/heads/main/DEUS1.jpg',
+            'https://raw.githubusercontent.com/victorxx/imagem/refs/heads/main/DEUS2.webp'
+        ];
+
+        let indice = 0;
+        const imgContainer = document.getElementById('img');
+
+        const criarImg = document.createElement('img');
+        criarImg.src = imagens[indice];
+        imgContainer.appendChild(criarImg);
+
+        function mudar() {
+            indice = (indice + 1) % imagens.length;
+            criarImg.src = imagens[indice];
+        }
+    </script>
+</body>
+</html>
