@@ -1,6 +1,10 @@
-<meta name="description" content="Confira a melhor hospedagem de sistemas com desempenho, segurança e suporte profissional. Descubra planos incríveis na Hostinger e eleve o nível dos seus projetos online!">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Confira a melhor hospedagem de sistemas com desempenho, segurança e suporte profissional. Descubra planos incríveis na Hostinger e eleve o nível dos seus projetos online!">
     <meta name="keywords" content="hospedagem, hostinger, sistemas, sites, servidor, web, hospedagem barata, hospedagem de sites, hospedagem profissional">
-    <meta name="author" content="Victor - SSNVICTORXU8">
+    <meta name="author" content="Vi">
 
     <!-- TEMA E COR DO NAVEGADOR -->
     <meta name="theme-color" content="#ff0000">
@@ -9,7 +13,7 @@
     <meta property="og:title" content="Confira essa hospedagem de sistemas!">
     <meta property="og:description" content="Planos poderosos e acessíveis na Hostinger — desempenho e segurança para o seu site.">
     <meta property="og:image" content="https://t.ctcdn.com.br/JlHwiRHyv0mTD7GfRkIlgO6eQX8=/640x360/smart/i257652.jpeg">
-    <meta property="og:url" content="https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8">
+  
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pt_BR">
 
@@ -18,3 +22,112 @@
     <meta name="twitter:title" content="Confira essa hospedagem de sistemas!">
     <meta name="twitter:description" content="Desempenho e segurança para o seu sistema com a Hostinger. Confira os planos!">
     <meta name="twitter:image" content="https://t.ctcdn.com.br/JlHwiRHyv0mTD7GfRkIlgO6eQX8=/640x360/smart/i257652.jpeg">
+    <style>
+        /* ======== ESTILO GERAL ======== */
+        body {
+            background: linear-gradient(135deg, #ff0000, #8b0000);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* ======== BLOCO DA IMAGEM ======== */
+        #m {
+            width: 500px;
+            border: 8px solid #000;
+            padding: 20px;
+            cursor: pointer;
+            text-align: center;
+            height: 250px;
+            border-radius: 16px;
+            background-color: #fff;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #m:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+        }
+
+        #m img {
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        /* ======== BOTÃO DE CONFIRA ======== */
+        #confira {
+            width: 90%;
+            max-width: 600px;
+            height: auto;
+            font-size: clamp(24px, 6vw, 48px);
+            border-radius: 12px;
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        #confira:hover {
+            background-color: #111;
+            box-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
+        }
+
+        #confira a {
+            text-decoration: none;
+            color: #ff4747;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        #confira a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="confira">
+      <a href="https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8">
+        CONFIRA ESSA HOSPEDAGEM DE SISTEMAS
+      </a>
+    </div>
+    <script>
+        document.write('<br>'.repeat(10));
+    </script>
+    <div id="m"></div>
+
+    <script>
+        let imagem = [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXybYhQqqBM-dpfukqXnth08LyWmy4vSvWeA&s',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsS_O1VXLP1xehsxzJD-qYPYXmiOCaruIqCA&s'
+        ];
+
+        let indice = Math.floor(Math.random() * imagem.length);
+
+        let criar_img = document.createElement('img');
+        criar_img.width = 300;
+        criar_img.height = 200;
+        criar_img.src = imagem[indice];
+        document.getElementById('m').appendChild(criar_img);
+
+        function m() {
+            indice = (indice + 1) % imagem.length;
+            criar_img.src = imagem[indice];
+        }
+
+        setInterval(m, 900);
+    </script>
+</body>
+</html>
