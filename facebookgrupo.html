@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTF-8">
+
+<!-- 🧭 Informações básicas da página -->
+<title>🌟 OPORTUNIDADES MARAVILHOSAS 🌟</title>
+<meta name="description" content="🚀 Confira agora essas oportunidades incríveis! 💥 Compartilhe nos grupos e aproveite antes que acabe.">
+<meta name="keywords" content="oportunidades, promoções, ofertas, descontos, achadinhos, facebook">
+<meta name="author" content="VictorXX">
+
+<!-- 🔗 Open Graph (Facebook e WhatsApp) -->
+<meta property="og:title" content="🌟 OPORTUNIDADES MARAVILHOSAS 🌟">
+<meta property="og:description" content="💥 Ofertas incríveis esperando por você! Clique, confira e compartilhe nos grupos! 🚀">
+<meta property="og:image" content="https://raw.githubusercontent.com/victorxx/imagem/refs/heads/main/oportunidade.png">
+<meta property="og:url" content="https://seusite.com/oportunidades"> <!-- 🔁 Substitua pelo link real da sua página -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Oportunidades Maravilhosas">
+
+<!-- 💬 Facebook App ID (opcional, melhora rastreamento e estatísticas) -->
+<!-- <meta property="fb:app_id" content="123456789012345"> -->
+
+<!-- ✅ Removido: meta tags do Twitter (não são usadas por grupos do Facebook) -->
+
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+        #m {
+            display: grid;
+            place-items: center;
+            left: 16%;
+            bottom: 55%;
+            border-radius: 12px;
+            width: 60%;
+            height: auto;
+            padding: 20px;
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            position: absolute;
+        }
+        #titulo {
+            color: white;
+            font-size: 60px;
+            display: grid;
+            left: 1%;
+            bottom: 70%;
+            background-color: crimson;
+            border-radius: 12px;
+            width: 100%;
+            position: absolute;
+            height: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        a {
+            color: yellow;
+            text-decoration: none;
+            font-size: 19px;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width:750px){
+            #titulo{
+                font-size: 20px;
+                bottom: 90%;
+                background-color: purple;
+
+            } 
+        }
+    </style>
+</head>
+<body>
+    <div id="titulo">CONFIRA ESSA OPORTUNIDADE</div>
+    <div id="m"></div>
+
+    <script>
+        let urls = [
+             {
+                url: 'https://www.instagram.com/geocredibnkvitoria/',
+                name: '"Empréstimo INSS/servidor/pessoal/PJ""'
+             },  
+        ];
+
+        let escolher = Math.floor(Math.random() * urls.length);
+        let indice = urls[escolher];
+
+        let criar = document.createElement('a');
+        criar.href = indice.url;
+        criar.textContent = indice.name;
+        criar.target = "_blank"; // Abre em nova aba
+
+        document.getElementById('m').appendChild(criar);
+    </script>
+</body>
+</html>
