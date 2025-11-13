@@ -80,6 +80,67 @@
 
     <script>
         let urls = [
+                     {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Transforme pixels em arte incrível!"'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Do iniciante ao mestre em Pixel Art."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Dê vida aos seus personagens em pixels!"'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Crie mundos, sprites e cenários pixelizados!"'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Arte digital divertida e criativa, começando pelos pixels."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Aprenda técnicas essenciais para dominar Pixel Art."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Transforme sua criatividade em arte pixelada!"'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Pixel Art fácil e divertido, passo a passo."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Do zero à criação de personagens e cenários incríveis."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Desperte o artista digital que existe em você!"'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Aprenda a técnica que conquistou jogos e animações."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Seu guia completo para criar arte em pixels."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Crie personagens, cenários e sprites pixelados com facilidade."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Arte em pixels que você vai se orgulhar de mostrar."'
+                    },
+                    {
+                        url: 'https://produto-63y.pages.dev/pixelart',
+                        name: 'Aprenda Pixel Art  "Aprenda Pixel Art e dê vida às suas ideias digitais!"'
+                    },
+
                     {
                         url: 'https://www.larissasaib.com.br/',
                         name: '"CABELO CAINDO? A DRA. LARISSA SAIB TEM A SOLUÇÃO PERFEITA PRA VOCÊ!"'
