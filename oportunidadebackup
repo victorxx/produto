@@ -80,6 +80,128 @@
 
     <script>
         let urls = [
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"CABELO CAINDO? A DRA. LARISSA SAIB TEM A SOLUÇÃO PERFEITA PRA VOCÊ!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"RECUPERE A FORÇA E A BELEZA DOS SEUS CABELOS COM A DRA. LARISSA SAIB!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"DIGA ADEUS À QUEDA DE CABELO! CONHEÇA OS TRATAMENTOS DA DRA. LARISSA SAIB."'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"SEU CABELO MERECE CUIDADO. DRA. LARISSA SAIB TEM O TRATAMENTO IDEAL!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"FORTALEÇA SEUS FIOS E DEVOLVA SUA AUTOESTIMA COM A DRA. LARISSA SAIB!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"NÃO É NORMAL PERDER TANTO CABELO. DESCUBRA COMO TRATAR COM A DRA. LARISSA SAIB!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"CABELOS FRACOS OU CAINDO? A DRA. LARISSA SAIB PODE AJUDAR!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"TRATAMENTO PERSONALIZADO PARA QUEDA CAPILAR É COM A DRA. LARISSA SAIB!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"CHEGA DE QUEDA DE CABELO! RECUPERE SEUS FIOS COM A DRA. LARISSA SAIB."'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"RESULTADOS REAIS PARA SEUS CABELOS — CONHEÇA A DRA. LARISSA SAIB!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"TRANSFORME SEU CABELO E SUA CONFIANÇA COM A DRA. LARISSA SAIB!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"SEU CABELO PODE VOLTAR A CRESCER! A DRA. LARISSA SAIB MOSTRA COMO."'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"CONSULTE-SE COM A DRA. LARISSA SAIB E DIGA ADEUS À QUEDA DE CABELO!"'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"CUIDE DA SAÚDE CAPILAR COM QUEM ENTENDE: DRA. LARISSA SAIB."'
+                    },
+                    {
+                        url: 'https://www.larissasaib.com.br/',
+                        name: '"DRA. LARISSA SAIB — SUA ESPECIALISTA EM TRATAMENTOS CONTRA QUEDA DE CABELO."'
+                    },
+
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🚗 Proteja seu carro, dirija com tranquilidade todos os dias.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🛡️ Seguro Auto — porque imprevistos acontecem, mas você pode estar preparado.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🚘 Seu carro merece cuidado. Faça um seguro e evite dor de cabeça.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '💙 Seguro Auto: proteção que te acompanha em cada viagem.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🔒 Tranquilidade sobre rodas — proteja seu veículo com quem entende do assunto.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '💼 Dirija com segurança e confiança. Faça seu Seguro Auto agora mesmo!'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🚗 Um pequeno investimento que evita grandes prejuízos. Faça seu seguro!'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🛞 Proteja seu carro contra roubos, acidentes e imprevistos — com o melhor custo-benefício.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '💥 Bateu, roubou ou quebrou? Com o Seguro Auto, você nunca fica na mão.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🚦 Segurança para você, proteção para seu carro. Faça já seu seguro!'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🧭 Vá mais longe com a tranquilidade de estar protegido.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🚘 Proteja seu veículo e garanta assistência 24h em qualquer lugar.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '⚙️ Segurança, assistência e economia — tudo no seu Seguro Auto.'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🚙 Não deixe o acaso decidir. Seguro Auto é sinônimo de tranquilidade!'
+                },
+                {
+                    url: 'https://wa.me/5527999497001',
+                    name: '🔑 Proteja seu carro e sua paz. Faça seu seguro agora mesmo!'
+                },
+
                 {
                     url: 'https://central.dokehost.com.br/aff.php?aff=90',
                     name: 'Doke Host VPS  "Performance que impulsiona seus projetos."'
