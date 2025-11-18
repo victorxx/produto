@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<meta charset="UTF-8">
+
+
+<!-- Título chamativo -->
+<title>🔥 Confira essas novidades, uau! 🔥</title>
+
+<!-- Descrição envolvente -->
+<meta name="description" content="🔥 Confira essas novidades, uau! 🔥">
+
+<!-- Open Graph (Facebook, LinkedIn, etc.) -->
+<meta property="og:title" content="🔥 Confira essas novidades, uau! 🔥">
+<meta property="og:description" content="🔥 Confira essas novidades, uau! 🔥">
+<meta property="og:image" content="https://blogdoaftm.com.br/wp-content/uploads/2020/03/AAA-5.png">
+
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="🔥 Confira essas novidades, uau! 🔥">
+<meta name="twitter:description" content="🔥 Confira essas novidades, uau! 🔥">
+<meta name="twitter:image" content="https://blogdoaftm.com.br/wp-content/uploads/2020/03/AAA-5.png">
+
+<!-- Favicon -->
+<link rel="icon" href="https://blogdoaftm.com.br/wp-content/uploads/2020/03/AAA-5.png" type="image/png">
+</head>
+
+<style>
+    #contato{
+        position: absolute;
+        left: 35%;
+        border-radius: 15px;
+        top:55%;
+        padding:20px;
+        text-align: center;   
+        background-color: orange;
+        font-size: 20px;
+    }
+    @media(max-width:550px){
+        #contato{
+            left: 5%;
+            top:70%;
+        }
+    }
+    body {
+        background: #000;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+    #ads {
+        width: 320px;   /* AUMENTADO */
+        height: 300px;  /* AUMENTADO */
+        background: #0a0;
+        border-radius: 12px;
+        border: 6px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        transition: opacity .4s ease;
+        position: relative;
+    }
+
+    #ads.fade {
+        opacity: 0;
+    }
+
+    #ads img {
+        max-width: 95%;     /* AUMENTADO */
+        max-height: 95%;    /* AUMENTADO */
+        transition: transform .3s;
+    }
+
+    #ads img:hover {
+        transform: scale(1.15); /* reduzi para evitar ficar muito grande */
+    }
+</style>
+</head>
+<body>
+
+<div id="ads"></div>
+<div id="contato">
+    <a href="https://wa.me/5527999860405?text=Ol%C3%A1%21%20Vim%20pelo%20an%C3%BAncio%2C%20gostaria%20de%20saber%20mais."> 
+        QUERO ADICIONAR MINHA EMPRESA AQUI
+    </a>
+</div>
+
+<script>
+const ads = document.getElementById("ads");
+
+const propagandas = [
+    { imagem: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Hostinger_logo.png', url: 'https://hostinger.com.br/?REFERRALCODE=SSNVICTORXU8' },
+    { imagem:'https://www.tabnews.com.br/api/v1/contents/VictorReisDavid/10551b97-3e7b-491f-a320-00ae46141a4d/thumbnail', url:'https://central.dokehost.com.br/aff.php?aff=90' },
+    {imagem:'https://ufop.br/sites/default/files//destaque_site_2024_geral_-_oportunidade_01.png',url:'https://produto-63y.pages.dev/oportunidade'},
+    {imagem:'https://i.ytimg.com/vi/DO8F2LvzQyk/maxresdefault.jpg',url:'https://produto-63y.pages.dev/oportunidade'}
+];
+
+function mudar() {
+    ads.classList.add("fade");
+
+    setTimeout(() => {
+        const p = propagandas[Math.floor(Math.random() * propagandas.length)];
+
+        ads.innerHTML = `
+            <a href="${p.url}" target="_blank">
+                <img src="${p.imagem}">
+            </a>
+        `;
+
+        ads.classList.remove("fade");
+    }, 400);
+}
+
+mudar();
+setInterval(mudar, 3000);
+</script>
+
+</body>
+</html>
