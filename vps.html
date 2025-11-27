@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -156,13 +157,17 @@
       <h2>🔹 Hostinger VPS</h2>
       <p>Desempenho premium com infraestrutura global, ideal para sites, lojas virtuais, bots e aplicações em nuvem.</p>
       <ul>
+        <div id="alvo"></div>
         <li>99,9% de uptime garantido</li>
         <li>Armazenamento SSD NVMe ultrarrápido</li>
         <li>Painel HPanel fácil de usar</li>
         <li>IP dedicado e acesso root completo</li>
         <li>Planos a partir de R$ XX,XX/mês</li>
       </ul>
-      <a href="https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8" class="btn" target="_blank">🔗 Ver VPS na Hostinger</a>
+      
+       <a href="https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8" class="btn" target="_blank">🔗 Ver VPS na Hostinger</a>
+      
+     
     </div>
 
     <div class="card">
@@ -178,7 +183,17 @@
       <a href="https://central.dokehost.com.br/aff.php?aff=90" class="btn" target="_blank">🔗 Ver VPS na Doke Host</a>
     </div>
   </div>
+        <script>
+        function iniciar() {
+            const alvo = document.getElementById("alvo");
+            alvo.scrollIntoView();
+        }
 
+        // Aguarda 100ms depois que a página carregou
+        window.addEventListener("load", () => {
+            setTimeout(iniciar, 1000);
+        });
+</script>
   <footer>
    
   </footer>
