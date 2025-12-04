@@ -68,7 +68,6 @@
         .button:hover {
             background-color: #218838;
         }
-
     </style>
 </head>
 <body>
@@ -87,10 +86,20 @@
             <li>✔ Acesso ao Xbox Game Pass e Xbox Live</li>
         </ul>
 
-        <a href="https://mercadolivre.com/sec/1zcRy3z" target="_blank" class="button">
-            QUERO COMPRAR AGORA!
-        </a>
+        <div id="comprar">
+            <a href="https://mercadolivre.com/sec/1zcRy3z" target="_blank" class="button">
+                QUERO COMPRAR AGORA!
+            </a>
+        </div>
+
     </div>
+
+    <script>
+        // Rola automaticamente até o botão de compra ao carregar a página
+        window.onload = function() {
+            document.getElementById('comprar').scrollIntoView({behavior: 'smooth'});
+        };
+    </script>
 
 </body>
 </html>
