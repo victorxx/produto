@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Xbox Series S 1TB</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 12px;
+            padding: 40px;
+            max-width: 600px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            text-align: left;
+            margin: 20px auto;
+            padding-left: 20px;
+            max-width: 400px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #28a745;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Microsoft Xbox Series S 1TB - Branco</h1>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_733181-MLA99998046015_112025-F.webp" alt="Xbox Series S Branco">
+
+        <p>O Xbox Series S é a próxima geração de consoles compactos, oferecendo desempenho impressionante e compatibilidade com milhares de jogos. Com 1TB de armazenamento interno, você terá espaço de sobra para seus jogos favoritos e experiências digitais incríveis.</p>
+
+        <ul>
+            <li>✔ 1TB de armazenamento interno SSD</li>
+            <li>✔ Resolução até 1440p e até 120FPS</li>
+            <li>✔ Retrocompatível com milhares de jogos Xbox</li>
+            <li>✔ Design compacto e elegante na cor branca</li>
+            <li>✔ Acesso ao Xbox Game Pass e Xbox Live</li>
+        </ul>
+
+        <div id="comprar">
+            <a href="https://mercadolivre.com/sec/1zcRy3z" target="_blank" class="button">
+                QUERO COMPRAR AGORA!
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        // Rola automaticamente até o botão de compra ao carregar a página
+        window.onload = function() {
+            document.getElementById('comprar').scrollIntoView({behavior: 'smooth'});
+        };
+    </script>
+
+</body>
+</html>
