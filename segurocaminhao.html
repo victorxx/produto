@@ -21,30 +21,26 @@
             font-family: Arial, sans-serif;
             background-color: #f5f5f5;
             margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 0;
             min-height: 100vh;
-            text-align: center;
-        }
-        .container {
-            background-color: #ffffff;
-            padding: 40px;
-            border-radius: 10px;
-            max-width: 500px;
-            width: 100%;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #1e3d59;
-        }
-        p {
-            font-size: 18px;
-            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
         }
 
-        /* BOTÃO WHATSAPP RESPONSIVO */
+        .container {
+            flex: 1; /* ocupa a tela inteira menos o botão */
+            padding: 40px 20px;
+            text-align: center;
+            background: #ffffff;
+            max-width: 500px;
+            margin: 0 auto;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 { color: #1e3d59; }
+        p { font-size: 18px; margin: 20px 0; }
+
         .whatsapp-button {
             display: block;
             width: 100%;
@@ -52,25 +48,14 @@
             margin: 0 auto;
             background-color: #25D366;
             color: #fff;
-            padding: 15px 25px;
+            padding: 15px;
             border-radius: 8px;
             text-decoration: none;
             font-weight: bold;
             font-size: 16px;
             transition: background-color 0.3s ease;
         }
-        .whatsapp-button:hover {
-            background-color: #1ebe57;
-        }
-
-        /* Ajuste para telas muito pequenas */
-        @media (max-width: 350px) {
-            .whatsapp-button {
-                font-size: 14px;
-                padding: 12px;
-                width: 100%;
-            }
-        }
+        .whatsapp-button:hover { background-color: #1ebe57; }
 
         .preview-image {
             width: 100%;
@@ -79,16 +64,18 @@
             border-radius: 10px;
         }
 
+        /* BOTÃO FIXO NO RODAPÉ */
         .red-button {
-            background-color: red; 
-            color: white;
-            border-radius: 12px; 
-            height: 100px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
             width: 100%;
-            max-width: 400px;
-            margin-top: 20px;
-            font-size: 18px;
+            background-color: red;
+            color: white;
             border: none;
+            height: 70px;
+            font-size: 20px;
+            font-weight: bold;
             cursor: pointer;
         }
     </style>
