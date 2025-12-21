@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta Tags para compartilhamento -->
+    <meta property="og:title" content="Loja Gamer - Controles PlayStation e Xbox">
+    <meta property="og:description" content="Confira controles originais para PlayStation 5 e Xbox com ótimo preço.">
+    <meta property="og:image" content="https://http2.mlstatic.com/D_NQ_NP_2X_955314-MLB97763983262_112025-F.webp">
+
+    <title>Loja Gamer</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 50px 20px;
+            background-color: #eaeaea;
+            display: flex;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .loja-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            background-color: #d32f2f;
+            padding: 35px;
+            border: 8px solid #000;
+            border-radius: 18px;
+        }
+
+        .produto-card {
+            width: 175px;
+            height: 290px;
+            background-color: #fdd835;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px;
+            text-align: center;
+            box-sizing: border-box;
+            transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+        }
+
+        .produto-card:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .produto-titulo {
+            font-size: 15px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .produto-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+
+        .produto-link {
+            text-decoration: none;
+            background-color: #000;
+            color: #fff;
+            padding: 7px 14px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .produto-link:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="loja-container">
+        <div class="produto-card">
+            <div class="produto-titulo">CONTROLE PLAYSTATION 5</div>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_955314-MLB97763983262_112025-F.webp" alt="Controle PS5">
+            <a href="https://mercadolivre.com/sec/2JiB8Yz" class="produto-link">QUERO SABER +</a>
+        </div>
+
+        <div class="produto-card">
+            <div class="produto-titulo">CONTROLE XBOX</div>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_728660-MLA100008487997_122025-F.webp" alt="Controle Xbox">
+            <a href="https://mercadolivre.com/sec/1pWhmPo" class="produto-link">QUERO SABER +</a>
+        </div>
+    </div>
+
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" 
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" 
+        data-cf-beacon='{"version":"2024.11.0","token":"bb87e8342b4e4399898df268eebfadaf","r":1}' 
+        crossorigin="anonymous"></script>
+</body>
+</html>
