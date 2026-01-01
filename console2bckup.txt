@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+
+<!-- SEO e compartilhamento -->
+<meta name="description" content="PlayStation 5 com tecnologia de nova geracao, desempenho extremo e graficos impressionantes. Consulte valores e compre online.">
+<meta property="og:title" content="PlayStation 5 | Nova Geracao de Games">
+<meta property="og:description" content="Conheca o PlayStation 5 com SSD ultrarrapido, ray tracing e desempenho de ultima geracao.">
+<meta property="og:image" content="https://http2.mlstatic.com/D_NQ_NP_2X_944525-MLA91963169767_092025-F.webp">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PlayStation 5 | Oferta Especial</title>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  padding: 20px;
+}
+
+.box {
+  background: #ffffff;
+  max-width: 620px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+img {
+  max-width: 260px;
+  margin: 25px auto;
+  display: block;
+}
+
+.price {
+  color: #1a73e8;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+button {
+  background: purple;
+  color: #ffffff;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: whitesmoke;
+  color: purple;
+}
+</style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>PlayStation 5 – Nova Geracao</h1>
+
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_944525-MLA91963169767_092025-F.webp" alt="Console PlayStation 5">
+
+    <p class="price">Valor sob consulta</p>
+
+    <p>
+      O PlayStation 5 entrega uma experiencia de jogo revolucionaria,
+      com carregamentos ultrarrapidos, graficos realistas e alto desempenho.
+      Ideal para quem busca imersao total nos games.
+    </p>
+
+    <ul style="text-align:left;">
+      <li>SSD ultrarrapido para carregamento quase instantaneo</li>
+      <li>Suporte a ray tracing e resolucao 4K</li>
+      <li>Controle DualSense com resposta tatil avancada</li>
+      <li>Processador de ultima geracao para jogos exigentes</li>
+      <li>Compatibilidade com uma vasta biblioteca de jogos</li>
+    </ul>
+
+    <a href="https://mercadolivre.com/sec/1zLX3EK" target="_blank" rel="noopener">
+      <button>COMPRAR AGORA</button>
+    </a>
+  </div>
+</body>
+</html>
