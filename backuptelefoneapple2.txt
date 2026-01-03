@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta property="og:image" content="https://http2.mlstatic.com/D_NQ_NP_2X_809936-MLA96419773842_102025-F.webp">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone 16 - 128GB BRANCO</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+}
+
+.box {
+  background:black;
+  max-width: 600px;
+  font-size: 20px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color:white;
+}
+
+img {
+  max-width: 200px;
+  margin: 20px auto;
+  display: block;
+}
+
+.price {
+  color: #1a73e8;
+  font-size: 70px;
+  margin: 10px 0;
+}
+
+button {
+  background: #25d366;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>Apple iPhone 16 (128 GB) – BRANCO</h1>
+
+    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_809936-MLA96419773842_102025-F.webp" alt="iPhone 16 Preto">
+
+    <p class="price">Consulte o valor</p>
+
+    <p>
+      O iPhone 16 traz desempenho, design moderno e a qualidade Apple.
+      Ideal para quem busca tecnologia e segurança.
+    </p>
+
+    <ul style="text-align:left;">
+      <li>128 GB de armazenamento</li>
+      <li>Cor Branco</li>
+      <li>Câmera de alta qualidade</li>
+      <li>Desempenho avançado</li>
+    </ul>
+
+    <a href="https://mercadolivre.com/sec/1pbKDcA">
+      <button>QUER COMPRAR </button>
+    </a>
+  </div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"bb87e8342b4e4399898df268eebfadaf","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"bb87e8342b4e4399898df268eebfadaf","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
