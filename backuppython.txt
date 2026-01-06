@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <title>Bolsa de Valores com Python</title>
     <meta name="description" content="Finanças com python aprender python">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="keywords" content="programação,computadores,python,finanças,computadores">
     <meta name="author" content="VictorXX">
     <meta property="og:image" content="https://i.ytimg.com/vi/Bh-vZGMj4i4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCFt-TPyJebgj4YpPRNZayKwb8PTA">
