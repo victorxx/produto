@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <title>Bolsa de Valores com Python</title>
+    <meta name="description" content="Finanças com python aprender python">
+    <meta name="keywords" content="programação,computadores,python,finanças,computadores">
+    <meta name="author" content="VictorXX">
+    <meta property="og:image" content="https://i.ytimg.com/vi/Bh-vZGMj4i4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCFt-TPyJebgj4YpPRNZayKwb8PTA">
+<head>
+<style>
+    body{
+        background-color:black;
+        padding:20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #canva{
+        position: relative;
+        width:100%;
+        max-width: 990px;
+        text-align: center;
+    }
+    #img img{
+        width:100%;
+        max-width: 550px;
+        height: auto;
+        border-radius: 12px;
+        border:3px solid salmon;
+        transition:0.5s;
+    }
+    #seta{
+        position:absolute;
+        right:10%;
+        top:30%;
+        width:100px;
+        border:10px solid orange;
+        height: 120px;
+        cursor: pointer;
+        transition:transform 0.3s;
+    }
+    #seta:hover{
+        transform:scale(2.0);
+    }
+    button{
+        width:330px;
+        height: 90px;
+        box-shadow: 10px 10px  30px red;
+        border-radius: 12px;
+        padding:20px 10px ;
+        color:black;
+        font-size: 33px;
+        border-radius: pink;
+        margin-top:40px;
+    }
+    @media (max-width: 550px) {
+    #seta:hover {
+        transform: scale(0.2);
+        transition: none; /* opcional: remove animação */
+    }
+}
+</style>
+    </head>
+    <body>
+        <h1>Bolsa de Valores com Python</h1>
+        <div id="canva">
+            <div id="img">      
+            </div>
+            <div id="seta" onclick="mudar()">
+            <img src="https://raw.githubusercontent.com/victorxx/imagem/refs/heads/main/setavermelha.png" width="60" alt="Próxima imagem">       
+            </div>
+            <button onclick="window.location.href='https://go.hotmart.com/P83079719G?dp=1'">QUERO SABER+</button>
+        </div>
+<script>
+let imagens=[
+
+            'https://i.ytimg.com/vi/Bh-vZGMj4i4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCFt-TPyJebgj4YpPRNZayKwb8PTA',
+            'https://static-media.hotmart.com/y0iGWgbccENPUf_6VL8dfIbZoCA=/300x300/smart/filters:format(webp):background_color(white)/hotmart/product_pictures/4bd61521-6eef-421a-a5c5-0c142e39f921/ebook_cover_python_1_2.png?w=920',
+            'https://forbes.com.br/wp-content/uploads/2021/07/Colunas_bolsa-de-valores_290721_Manusapon-Kasosod_GettyImages.jpg'
+];
+let indice=0;
+let imgcontainer=document.getElementById('img');
+let criar_img=document.createElement('img');
+criar_img.src=imagens[indice];
+imgcontainer.appendChild(criar_img);
+
+function mudar(){
+    indice=(indice+1)% imagens.length;
+    criar_img.src=imagens[indice];
+}
+</script>   
+    </body>
+
+</html>
