@@ -97,9 +97,9 @@
 <body>
     <div class="container">
         <div class="card">
-            <div class="titulo">Microsoft windows 11 Chave License Windws11 Home/pro R$ 139</div>
+            <div class="titulo">Microsoft windows 11 Chave License Windws11 Home/</div>
             <img src="https://upload.wikimedia.org/wikipedia/pt/e/e0/Windows_logo.png?20150829231053" alt="Controle PS5">
-            <a href="https://mercadolivre.com/sec/1BdAydq" class="botao">QUERO SABER +</a>
+            <a href="https://sites.google.com/view/asmelhoresofertasdia/windows11" class="botao">QUERO SABER +</a>
         </div>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/uJi63m9BVoY?si=y_WW-5rgQG1J3QEv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
