@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta property="og:image" content="https://gerencialconstrutora.com.br/wp-content/uploads/2020/12/turismo-gastronomico-lugares-na-europa-para-os-amantes-da-culinaria.jpg">
+<title>“Culinária Criativa”</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+
+/* Container das imagens */
+.container {
+    width: 90%;
+    max-width: 3000px;
+    height: 600px;
+    background-color: orange; /* fundo laranja */
+    display: flex;
+    gap: 0; /* sem espaço entre imagens */
+    border-radius: 12px; 
+    margin-bottom: 20px;
+    overflow-x:auto ; 
+    overflow-y: hidden;
+    /* espaço entre container e botão */
+}
+.container img {
+    flex: 1;                  /* cada imagem ocupa espaço proporcional */
+    height: 100%;
+    object-fit: cover;         /* cobre todo espaço da imagem */
+    transition: 0.3s;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+/* Botão */
+button {
+    width: 440px;
+    max-width: 90%;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: #000;
+    color:black;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: orangered
+}
+
+button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        height: 350px;
+    }
+    button {
+        width: 80%;
+        padding: 12px;
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+<body>
+
+<h1>“Culinária Criativa”</h1>
+
+<!-- Container de imagens -->
+<div class="container">
+    <button onclick="window.open('https://go.hotmart.com/T103824952M','_blank')">QUERO SABER +</button>
+    <img src="https://gerencialconstrutora.com.br/wp-content/uploads/2020/12/turismo-gastronomico-lugares-na-europa-para-os-amantes-da-culinaria.jpg" alt="Imagem 1">
+    <button onclick="window.open('https://go.hotmart.com/T103824952M','_blank')">QUERO SABER +</button>
+</div>
+
+<!-- Botão separado -->
+
+
+</body>
+</html>
